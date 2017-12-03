@@ -671,3 +671,14 @@ transition: margin-left 4s linear 1s;
 * <a href="https://developers.google.com/web/tools/chrome-devtools/inspect-styles/" target="_blank">HTML</a>.
 * <a href="https://developers.google.com/web/tools/chrome-devtools/css/" target="_blank">CSS</a>.
 * <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/" target="_blank">Эмуляция мобильных устройств</a>.
+
+#HSLIDE
+
+### Рекомендации
+
+* Ознакомьтесь с Google <a href="https://google.github.io/styleguide/htmlcssguide.html#HTML" target="_blank">HTML</a>/<a href="https://google.github.io/styleguide/htmlcssguide.html#CSS" target="_blank">CSS</a> Style Guides.
+* Соблюдайте <a href="https://google.github.io/styleguide/htmlcssguide.html#HTML_Validity" target="_blank">валидность HTML документа</a>.
+* Верстайте <a href="https://google.github.io/styleguide/htmlcssguide.html#Semantics" target="_blank">семантично</a>.
+* Пишите весь код в <a href="https://google.github.io/styleguide/htmlcssguide.html#Capitalization" target="_blank">нижнем регистре</a>.
+* Используйте <a href="https://google.github.io/styleguide/htmlcssguide.html#HTML_Quotation_Marks" target="_blank">двойные кавычки в HTML</a> и <a href="https://google.github.io/styleguide/htmlcssguide.html#CSS_Quotation_Marks" target="_blank">одинарные в CSS</a> (где это необходимо).
+* Следите за <a href="https://google.github.io/styleguide/htmlcssguide.html#General_Formatting_Rules" target="_blank">форматированием</a>.
