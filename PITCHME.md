@@ -75,3 +75,64 @@
 ![CSS: Mobile First](images/mobile-first.png)
 
 Примеры: <a href="https://jsfiddle.net/sergdenisov/9mgrw25e/" target="_blank">Desktop First</a> vs <a href="https://jsfiddle.net/sergdenisov/8r8z3akx/" target="_blank">Mobile First</a>.
+
+#HSLIDE
+
+### CSS: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes" target="_blank">flexbox</a>
+
+![CSS: flexbox](images/flexbox.png)
+
+<a href="https://jsfiddle.net/sergdenisov/zwrroac2/" target="_blank">Пример 1</a>, <a href="https://jsfiddle.net/sergdenisov/95y31w8j/" target="_blank">пример 2</a>, <a href="http://frontender.info/a-guide-to-flexbox/" target="_blank">статья</a>.
+
+#VSLIDE
+
+Свойства flex-контейнера (родительского элемента):
+
+```css
+display: flex | inline-flex
+flex-direction: row | row-reverse | column | column-reverse
+flex-wrap: nowrap | wrap | wrap-reverse
+flex-flow: <'flex-direction'> || <'flex-wrap'>
+```
+
+#VSLIDE
+
+```css
+justify-content: flex-start | flex-end | center |
+                 space-between | space-around
+```
+
+![CSS: flexbox justify-content](images/justify-content.png)
+
+#VSLIDE
+
+```css
+align-items: flex-start | flex-end | center |
+             baseline | stretch
+```
+
+![CSS: flexbox align-items](images/align-items.png)
+
+#VSLIDE
+
+```css
+align-content: flex-start | flex-end | center |
+               space-between | space-around | stretch
+```
+
+![CSS: flexbox align-items](images/align-content.png)
+
+#VSLIDE
+
+Свойства дочерних элементов:
+
+```css
+order: <integer>
+flex-grow: <number> (default 0)
+flex-shrink: <number> (default 1)
+flex-basis: <length> | auto (default auto)
+flex: [<'flex-grow'> <'flex-shrink'>? || <'flex-basis'>]
+      (default 0 1 auto)
+align-self: auto | flex-start | flex-end | center |
+            baseline | stretch
+```
