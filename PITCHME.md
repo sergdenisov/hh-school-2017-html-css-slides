@@ -692,3 +692,15 @@ transition: margin-left 4s linear 1s;
 * <a href="http://lesscss.org" target="_blank">LESS</a>.
 * <a href="http://getbootstrap.com/docs/4.0/layout/grid/" target="_blank">Twitter Bootstrap Grid</a>.
 * <a href="http://stackoverflow.com" target="_blank">Stackoverflow</a>.
+
+#HSLIDE
+
+### <a href="https://github.com/sergdenisov/hh-school-2017-html-css-homework" target="_blank">Задание</a>
+
+#HSLIDE
+
+### Спасибо за внимание!
+
+Любите CSS, а то CSS не будет любить вас!
+
+![CSS](images/css.gif)
