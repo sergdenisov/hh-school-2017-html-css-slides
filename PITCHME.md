@@ -136,3 +136,24 @@ flex: [<'flex-grow'> <'flex-shrink'>? || <'flex-basis'>]
 align-self: auto | flex-start | flex-end | center |
             baseline | stretch
 ```
+
+#HSLIDE
+
+### CSS: <a href="https://www.urbaninsight.com/2012/04/12/ten-reasons-you-should-be-using-css-preprocessor" target="_blank">препроцессоры</a>
+
+<a href="https://habrahabr.ru/sandbox/78148/" target="_blank">Препроцессоры</a> компилируют СSS код, который мы пишем на процессорном языке в чистый, валидный CSS код. Профит:
+
+* Расширяют синтаксис CSS недостающими возможностями.
+* Уменьшают дублирование кода.
+* Делают код более структурированным.
+* Упрощают поддержку кода.
+
+#VSLIDE
+
+### CSS: <a href="https://www.sitepoint.com/6-current-options-css-preprocessors/" target="_blank">популярные препроцессоры</a>
+
+![CSS: preprocessors](images/preprocessors.jpg)
+
+* <a href="http://sass-lang.com/guide" target="_blank">SASS/SCSS</a>.
+* <a href="http://stylus-lang.com" target="_blank">Stylus</a>.
+* <a href="http://lesscss.org/features/#features-overview-feature" target="_blank">LESS</a>.
