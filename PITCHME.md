@@ -405,3 +405,12 @@ style comment! */
 // Get in line!
 @var: white;
 ```
+
+#HSLIDE
+
+### Использование LESS в HeadHunter
+
+* <a href="http://lesscss.org/features/#parent-selectors-feature" target="_blank">Родительские селекторы</a> только для элементов, модификаторов, псевдо-классов и псевдо-элементов.
+* <a href="http://lesscss.org/features/#parent-selectors-feature" target="_blank">Родительские селекторы</a> ограничены 2-мя уровнями.
+* Миксины только <a href="http://lesscss.org/features/#mixins-feature-not-outputting-the-mixin" target="_blank">со скобками</a> (чтобы не было в выходном файле).
+* Не используются: <a href="http://lesscss.org/features/#extend-feature" target="_blank">Extend</a>, <a href="http://lesscss.org/features/#mixins-as-functions-feature" target="_blank">Mixins as Functions</a>, <a href="http://lesscss.org/features/#import-options" target="_blank">Import Options</a>.
