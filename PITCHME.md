@@ -682,3 +682,13 @@ transition: margin-left 4s linear 1s;
 * Пишите весь код в <a href="https://google.github.io/styleguide/htmlcssguide.html#Capitalization" target="_blank">нижнем регистре</a>.
 * Используйте <a href="https://google.github.io/styleguide/htmlcssguide.html#HTML_Quotation_Marks" target="_blank">двойные кавычки в HTML</a> и <a href="https://google.github.io/styleguide/htmlcssguide.html#CSS_Quotation_Marks" target="_blank">одинарные в CSS</a> (где это необходимо).
 * Следите за <a href="https://google.github.io/styleguide/htmlcssguide.html#General_Formatting_Rules" target="_blank">форматированием</a>.
+
+#HSLIDE
+
+### Ссылки
+
+* <a href="https://developer.mozilla.org/en/" target="_blank">Mozilla Developer Network (MDN)</a>.
+* <a href="https://ru.bem.info/method/key-concepts/" target="_blank">БЭМ</a>.
+* <a href="http://lesscss.org" target="_blank">LESS</a>.
+* <a href="http://getbootstrap.com/docs/4.0/layout/grid/" target="_blank">Twitter Bootstrap Grid</a>.
+* <a href="http://stackoverflow.com" target="_blank">Stackoverflow</a>.
