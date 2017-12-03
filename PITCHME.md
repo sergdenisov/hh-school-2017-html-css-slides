@@ -18,14 +18,14 @@
 * Обычно используют CSS-препроцессоры. 
 
 Примеры:
-* [Twitter Bootstrap](https://getbootstrap.com) ([использование](https://jsfiddle.net/sergdenisov/hngh2bec/)).
-* [Bloko](http://hhru.github.io/bloko/).
+* <a href="https://getbootstrap.com" target="_blank">Twitter Bootstrap</a> (<a href="https://jsfiddle.net/sergdenisov/hngh2bec/" target="_blank">использование</a>).
+* <a href="http://hhru.github.io/bloko/" target="_blank">Bloko</a>.
 
 #HSLIDE
 
-### CSS: [модульные сетки](http://htmlbook.ru/content/modulnaya-setka)
+### CSS: <a href="http://htmlbook.ru/content/modulnaya-setka" target="_blank">модульные сетки</a>.
 
-[Модульная сетка](htmlbook.ru/content/modulnaya-setka) представляет собой набор невидимых направляющих, вдоль которых
+<a href="http://htmlbook.ru/content/modulnaya-setka" target="_blank">Модульная сетка</a> представляет собой набор невидимых направляющих, вдоль которых
 располагаются элементы страницы. Профит:
 
 * Это облегчает размещение данных в документе.
@@ -45,11 +45,12 @@
 
 ![CSS: Grid](images/grid.jpg)
 
-Примеры: [Twitter Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/), [960 Grid System](http://960.gs).
+
+Примеры: <a href="https://getbootstrap.com/docs/4.0/layout/grid/" target="_blank">Twitter Bootstrap</a>, <a href="http://960.gs" target="_blank">960 Grid System</a>.
 
 #VSLIDE
 
-### CSS: [модульная сетка в Twitter Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/)
+### CSS: <a href="https://getbootstrap.com/docs/4.0/layout/grid/" target="_blank">модульная сетка в Twitter Bootstrap</a>
 
 ```html
 <div class="container">
@@ -69,8 +70,8 @@
 
 #VSLIDE
 
-### CSS: [Mobile First](https://www.sitepoint.com/introduction-mobile-first-media-queries/)
+### CSS: <a href="https://www.sitepoint.com/introduction-mobile-first-media-queries/" target="_blank">Mobile First</a>
 
 ![CSS: Mobile First](images/mobile-first.png)
 
-Примеры: [Desktop First](https://jsfiddle.net/sergdenisov/9mgrw25e/) vs [Mobile First](https://jsfiddle.net/sergdenisov/8r8z3akx/).
+Примеры: <a href="https://jsfiddle.net/sergdenisov/9mgrw25e/" target="_blank">Desktop First</a> vs <a href="https://jsfiddle.net/sergdenisov/8r8z3akx/" target="_blank">Mobile First</a>.
