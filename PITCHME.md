@@ -414,3 +414,185 @@ style comment! */
 * <a href="http://lesscss.org/features/#parent-selectors-feature" target="_blank">Родительские селекторы</a> ограничены 2-мя уровнями.
 * Миксины только <a href="http://lesscss.org/features/#mixins-feature-not-outputting-the-mixin" target="_blank">со скобками</a> (чтобы не было в выходном файле).
 * Не используются: <a href="http://lesscss.org/features/#extend-feature" target="_blank">Extend</a>, <a href="http://lesscss.org/features/#mixins-as-functions-feature" target="_blank">Mixins as Functions</a>, <a href="http://lesscss.org/features/#import-options" target="_blank">Import Options</a>.
+
+#HSLIDE
+
+### CSS: <a href="http://sixrevisions.com/css/css-methodologies/" target="_blank">методологии</a>
+
+<a href="http://sixrevisions.com/css/css-methodologies/" target="_blank">CSS-методология</a> — способ написания и организации CSS-кода для упрощения поддержки и масштабирования проекта.
+
+* <a href="http://oocss.org" target="_blank">Object-Oriented CSS (OOCSS)</a>
+* <a href="https://smacss.com" target="_blank">Scalable and Modular Architecture for CSS (SMACSS)</a>
+* <a href="https://ru.bem.info/methodology/quick-start/" target="_blank">Block, Element, Modifier (BEM)</a>
+
+Полезное: <a href="https://habrahabr.ru/post/256109/" target="_blank">статья на Хабре</a>, <a href="http://getbem.com" target="_blank">альтернативный сайт про BEM</a>.
+
+#HSLIDE
+
+### <a href="https://ru.bem.info/methodology/quick-start/" target="_blank">Блок Элемент Модификатор</a>
+
+![BEM](images/cap-bem.png)
+
+#VSLIDE
+
+### <a href="https://ru.bem.info/methodology/key-concepts/#Блок" target="_blank">БЭМ: блок</a>
+
+![BEM: Block](images/block.png)
+
+#VSLIDE
+
+### <a href="https://ru.bem.info/methodology/key-concepts/#Свободное-перемещение" target="_blank">БЭМ: свободное перемещение блоков</a>
+
+![BEM: Block moving](images/block-moving.png)
+
+#VSLIDE
+
+### <a href="https://ru.bem.info/methodology/key-concepts/#Повторное-использование" target="_blank">БЭМ: повторное использование блоков</a>
+
+![BEM: Block using](images/block-using.png)
+
+#VSLIDE
+
+### <a href="https://ru.bem.info/methodology/key-concepts/#Элемент" target="_blank">БЭМ: элемент</a>
+
+![BEM: Element](images/element.png)
+
+#VSLIDE
+
+### <a href="https://ru.bem.info/methodology/key-concepts/#Модификатор" target="_blank">БЭМ: модификатор</a>
+
+![BEM: Modifier](images/modifier.png)
+
+#HSLIDE
+
+### <a href="https://ru.bem.info/methodology/naming-convention/#Соглашение-по-именованию" target="_blank">БЭМ: именование</a>
+
+* БЭМ-сущностями называются блоки, элементы и модификаторы.
+* Имена БЭМ-сущностей записываются с помощью цифр и латинских букв в нижнем регистре.
+* Для разделения слов в именах используется дефис (-).
+* Для хранения информации об именах блоков, элементов и модификаторов используются CSS-классы.
+
+#VSLIDE
+
+### <a href="https://ru.bem.info/methodology/naming-convention/#Имя-блока" target="_blank">БЭМ: имя блока</a>
+
+```css
+.block {
+    ...
+}
+```
+
+```html
+<div class="block">...</div>
+```
+
+#VSLIDE
+
+### <a href="https://ru.bem.info/methodology/naming-convention/#Имя-элемента" target="_blank">БЭМ: имя элемента</a>
+
+```css
+.block__element {
+    ...
+}
+```
+
+```html
+<div class="block">
+    <div class="block__element">...</div>
+</div>
+```
+
+#VSLIDE
+
+### <a href="https://ru.bem.info/methodology/naming-convention/#Имя-модификатора-блока" target="_blank">БЭМ: имя модификатора</a>
+
+```css
+.block_modifier {
+    ...
+}
+.block_modifier-key_modifier-value {
+    ...
+}
+```
+
+```html
+<div class="block block_modifier">
+    ...
+</div>
+<div class="block block_modifier-key_modifier-value">
+    ...
+</div>
+```
+
+#VSLIDE
+
+### <a href="https://ru.bem.info/methodology/naming-convention/#Имя-модификатора-элемента" target="_blank">БЭМ: имя модификатора элемента</a>
+
+```css
+.block__element_modifier {
+    ...
+}
+.block__element__modifier-key_modifier-value {
+    ...
+}
+```
+
+```html
+<div class="block">
+    <div class="block__element block__element_modifier">
+        ...
+    </div>
+</div>
+<div class="block">
+    <div class="block__element block__element_modifier-key_modifier-value">
+        ...
+    </div>
+</div>
+```
+
+#VSLIDE
+
+### <a href="https://ru.bem.info/methodology/naming-convention/" target="_blank">БЭМ: пример использования наименований</a>
+
+```css
+.form {}
+.form_theme_forest {}
+.form_login {}
+.form__input {}
+.form__submit {}
+.form__submit_disabled {}
+```
+
+```html
+<form class="form form_login form_theme_forest">
+    <input class="form__input">
+    <input class="form__submit form__submit_disabled">
+</form>
+```
+
+#VSLIDE
+
+### <a href="https://ru.bem.info/methodology/key-concepts/#Микс" target="_blank">БЭМ: миксы</a>
+
+Микс — способ использования разных <a href="https://ru.bem.info/methodology/key-concepts/#БЭМ-сущность" target="_blank">БЭМ-сущностей</a> на одном элементе. Миксы позволяют:
+
+* Совмещать поведение и стили нескольких БЭМ-сущностей без дублирования кода.
+* Создавать семантически новые компоненты интерфейса на основе имеющихся БЭМ-сущностей.
+
+```html
+<div class="menu">
+    <span class="menu__item link">...</span>
+</div>
+```
+
+#HSLIDE
+
+### CSS-методология в HeadHunter
+
+"У нас свой подход, лишь отдалённо напоминающий БЭМ." (c):
+
+* Есть глобальный `_defaults.less` (нормализация различных стилей браузеров по умолчанию).
+* Миксы запрещены.
+* Модификаторы только булевы.
+* Иногда используются глобальные классы.
+* Иногда используются глобальные модификаторы.
