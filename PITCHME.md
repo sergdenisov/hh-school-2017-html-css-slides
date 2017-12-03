@@ -141,7 +141,7 @@ align-self: auto | flex-start | flex-end | center |
 
 ### CSS: <a href="https://www.urbaninsight.com/2012/04/12/ten-reasons-you-should-be-using-css-preprocessor" target="_blank">препроцессоры</a>
 
-<a href="https://habrahabr.ru/sandbox/78148/" target="_blank">Препроцессоры</a> компилируют СSS код, который мы пишем на процессорном языке в чистый, валидный CSS код. Профит:
+<a href="https://habrahabr.ru/sandbox/78148/" target="_blank">Препроцессоры</a> компилируют CSS код, который мы пишем на процессорном языке в чистый, валидный CSS код. Профит:
 
 * Расширяют синтаксис CSS недостающими возможностями.
 * Уменьшают дублирование кода.
@@ -596,3 +596,70 @@ style comment! */
 * Модификаторы только булевы.
 * Иногда используются глобальные классы.
 * Иногда используются глобальные модификаторы.
+
+#HSLIDE
+
+### Еще пара слов о CSS
+
+* Анимации: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation" target="_blank">animation</a> и <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition" target="_blank">transition</a>.
+* <a href="https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix" target="_blank">Вендорные префиксы</a>.
+
+#VSLIDE
+
+### CSS: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation" target="_blank">animation</a>
+
+```css
+animation-name: none
+animation-duration: 0s
+animation-timing-function: ease
+animation-delay: 0s
+animation-iteration-count: 1
+animation-direction: normal
+animation-fill-mode: none
+animation-play-state: running
+```
+
+#VSLIDE
+
+```css
+@keyframes slide-in {
+    0% { margin-left: 0; }
+    100% { margin-left: 300px; }
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    animation: 3s ease-in 1s infinite slide-in;    
+}
+```
+
+<a href="https://jsfiddle.net/sergdenisov/j5ogte1k/2/" target="_blank">Пример</a>.
+
+#VSLIDE
+
+### CSS: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition" target="_blank">transition</a>
+
+```css
+transition-delay: 0s
+transition-duration: 0s
+transition-property: all
+transition-timing-function: ease
+```
+
+```css
+transition: all 3s linear 1s;
+```
+
+<a href="https://jsfiddle.net/sergdenisov/9xrjc710/1/" target="_blank">Пример</a>.
+
+#VSLIDE
+
+### CSS: <a href="https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix" target="_blank">вендорные префиксы</a>
+
+```css
+-webkit-transition: margin-left 4s linear 1s;
+transition: margin-left 4s linear 1s;
+```
+
+<a href="http://caniuse.com" target="_blank">Can I Use?</a>
