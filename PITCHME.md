@@ -663,3 +663,11 @@ transition: margin-left 4s linear 1s;
 ```
 
 <a href="http://caniuse.com" target="_blank">Can I Use?</a>
+
+#HSLIDE
+
+### Отладка HTML/CSS в <a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Google Chrome</a>
+
+* <a href="https://developers.google.com/web/tools/chrome-devtools/inspect-styles/" target="_blank">HTML</a>.
+* <a href="https://developers.google.com/web/tools/chrome-devtools/css/" target="_blank">CSS</a>.
+* <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/" target="_blank">Эмуляция мобильных устройств</a>.
